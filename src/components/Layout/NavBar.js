@@ -1,5 +1,5 @@
 
-import { IconCloud, IconDeviceTv, IconSearch, IconNews } from '@tabler/icons-react';
+import { IconSearch, IconNews } from '@tabler/icons-react';
 import { Link } from 'react-router-dom'
 
 function NavBar(){
@@ -19,14 +19,6 @@ function NavBar(){
                             <IconSearch className={'ti'} size={35}/>
                     </li>
                 </Link>
-
-                <li className="nav-item">
-                    <IconDeviceTv className={'ti'} size={35}/>
-                </li>
-
-                <li className="nav-item">
-                    <IconCloud className={'ti'} size={35}/>
-                </li>
 
             </ul>
 

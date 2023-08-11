@@ -8,6 +8,7 @@ function SearchLoadedResult(props) {
         <div className={"allnews--container"}>
             <ul className={"newsitem--container"}>
                 <LoadNews
+                    home={true}
                     key={props.search_input}
                     newsUrl={props.search_input}
                 />
